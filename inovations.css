@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.9)),url(imagesAndLogos/innovations.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display:inline-block;
+
+}
+ul li a{
+    text-decoration: none;
+    font-weight: 900;
+    color:yellow;
+    padding: 5px 20px;
+    border:rgb(3, 238, 62);
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    border: 1px yellow solid;
+    border-radius: 15px;
+    color: white;
+
+}
+ul li a:active{
+    border: 1px darkred solid;
+    border-radius: 15px;
+    background-color: firebrick;
+    color: rgb(255, 179, 179);
+
+}
+.imageIcon img{
+    float: left;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.elements{
+    max-width: 95%;
+    margin: auto;
+}
+/*Stylings for the title */
+.title{
+    position:absolute;
+    top: 12%;
+    left: 10%;
+    line-height:300%;
+    letter-spacing: 0.1rem;
+    text-shadow: 4px 4px 6px yellow;
+    font-size: 50px;
+    text-align:left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.title p{
+    font-size: 20px;
+    line-height: 200%;
+    left: 15%;
+    padding: 1%;
+    padding-bottom: 5%;
+    text-decoration:none;
+    font-weight: 700;
+}
+.talents a{
+    color: white;
+    text-decoration: none;
+    text-emphasis: 800;
+    font-size: 20px;
+    padding:5px;
+    margin: 15px;
+    margin-bottom: 150px;
+    margin-top: 150px;
+    border: 3px solid yellow;
+    border-radius: 15px;
+    background-image: url(imagesAndLogos/software.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+.talents a:hover{
+    color: yellow;
+    text-decoration: none;
+    text-emphasis: 900;
+    border: dotted 2px black;
+    
+    
+}
+.talents{
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 40px;
+    position: relative;
+    top: 60%;
+    left: 60px;
+
+}
+
+
+
